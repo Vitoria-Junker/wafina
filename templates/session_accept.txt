@@ -1,0 +1,6 @@
+Hey, {{source_name}}!
+Congrats you are booked with <b>{{target_name}}</b> for session on <b>{{custom_date}}</b> from
+<b>{{start_time}}</b> to <b>{{end_time}}</b>.Total amount to be paid session is <b>${{price}}</b>.
+Enjoy and don't forget to leave the review
+
+You’re receiving this email because you have an account with Wafina.

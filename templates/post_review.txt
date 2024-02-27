@@ -1,0 +1,3 @@
+Hey, {{source_name}}! Share your experience for the <b>{{services}}</b> session with <b>{{target_name}}</b>.
+
+You’re receiving this email because you have an account with Wafina.

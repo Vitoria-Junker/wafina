@@ -1,0 +1,5 @@
+Hey, {{source_name}}!
+We regret to inform that <b>{{target_name}}</b> is unable to fulfill your request at this moment.
+Do not worry, we have you covered.Visit your Wafina account to look for other professionals around your area.
+
+You’re receiving this email because you have an account with Wafina.

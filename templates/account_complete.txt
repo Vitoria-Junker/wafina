@@ -1,0 +1,3 @@
+Hey, {{fullname}}! Thank You for submitting your documents for review.Your Wafina profile has been been successfully <b>APPROVED</b>
+
+You’re receiving this email because you have an account with Wafina.

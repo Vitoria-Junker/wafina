@@ -1,0 +1,3 @@
+Hey, {{target_name}}! <b>{{source_name}}</b> wants to book you <b>{{services}}</b> for a session on <b>{{session_date}}</b> at <b>{{start_time}}</b>
+
+You’re receiving this email because you have an account with Wafina.

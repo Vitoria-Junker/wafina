@@ -1,0 +1,2 @@
+Hey, Admin!  <b>{{full_name}}</b> having email <i>{{email}}</i> and contact number <i>{{phone_number}}</i> has left the message:
+{{message}}

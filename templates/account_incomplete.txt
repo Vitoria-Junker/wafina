@@ -1,0 +1,4 @@
+Hey, {{fullname}}! Thank You for submitting your documents on Wafina.We regret to inform you that your profile at Wafina can not be
+<b>APPROVED</b> at this point of the time
+
+You’re receiving this email because you have an account with Wafina.

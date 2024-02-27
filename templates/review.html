@@ -1,0 +1,134 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+  <style>
+    @font-face {
+      font-family: Roboto;
+      src: url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+    }
+    .ExternalClass {width: 100%;}
+    html {
+      font-size: 16px;
+    }
+    body {
+      background-color: #fbfbfb;
+      color: #333;
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+    h1 {
+      margin: 0;
+      mso-line-height-rule: exactly;
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      color: #03a652 !important;
+    }
+    div.container {
+      margin: auto;
+      margin-top: 4.75rem;
+      max-width: 488px;
+    }
+    .card {
+      padding: 24px;
+      border-radius: 2px;
+      box-shadow: 0 1px 6px 0 #00000041;
+      background-color: white;
+    }
+    .btn {
+      cursor: pointer;
+      border-radius: 20px;
+      text-transform: uppercase;
+      display: block;
+      color: #ffffff !important;
+      background-color: #C9BB9F;
+      font-size: 0.825rem;
+      font-weight: 700;
+      text-align: center;
+      padding: 14px 0;
+      margin: 3rem 0;
+      text-decoration: none;
+    }
+    .logo img {
+      height: 6.8125rem ;
+      margin: auto;
+      margin-bottom: 1.25rem;
+    }
+    .header {
+      text-align: center;
+      font-size: 1.825rem;
+      font-weight: 300;
+    }
+    .big-green-currency{
+      color: #03a652;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 100;
+      line-height: 0.62;
+      margin: 2rem auto;
+    }
+    .note {
+      text-align: center;
+      font-family: Lora;
+      font-style: italic;
+      line-height: 1.5;
+      color: #757575;
+      margin: 2rem auto;
+    }
+    .divider {
+      border: 1px solid #BABABA;
+      margin: 2rem auto;
+      width: 110px;
+    }
+    .content {
+      text-align: center;
+      margin: 2rem;
+      line-height: 1.5;
+      color: #757575;
+    }
+    .hey {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .follow-link {
+      text-align: center;
+      height: 85px;
+      word-break:break-all;
+    }
+    .card-footer {
+      background-color: #ececec;
+      font-size: 14px;
+      margin: -24px;
+      padding: 24px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img style="display:block" alt="Wafina Logo" title="Wafina Logo" src="http://wafina.co.uk/images/landing-logo.png"></img>
+    </div>
+    <div class="card">
+      <h1 class="header">Hey, {{target_name}}!</h1>
+      <p class="content">
+        <b>{{source_name}}</b> left a review on your profile for <b>{{services}}</b> session.
+        <div class="divider"></div>
+        <div class="tips-section">
+          <p class="sub-header">To check your reviews , click on the button below.</p>
+        </div>
+        <a class="btn" href="{{ current_site }}">Go to My Account</a>
+
+
+       <div class="card-footer">
+        <p>You’re receiving this email because you have an account with Wafina. For any query, please <a href="mailto:contactus@wafina.co.uk" target="_top">contact us.</a></p></p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
